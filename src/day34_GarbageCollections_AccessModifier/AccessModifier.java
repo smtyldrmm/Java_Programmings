@@ -7,6 +7,18 @@ public class AccessModifier {
 
     private static int privateData=300;
 
+    public static void method1(){
+        System.out.println("Public");
+    }
+
+    static void method2(){
+        System.out.println("Default");
+    }
+
+    public static void method3(){
+        System.out.println("Private");
+    }
+
     public static void main(String[] args) {
 
         System.out.println(publicData);
